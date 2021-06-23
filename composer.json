@@ -1,0 +1,27 @@
+{
+	"name" : "semoa/semoa_cashpay",
+	"description" : "semoa cashpay payment",
+	"authors" : [{
+			"name" : "sonia",
+			"email" : "sonia.lakignan@aeconsult.fr"
+		}
+	],
+	"require" : {
+		"php" : ">=5.6.0",
+		"firebase/php-jwt": "^5.2"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Semoa\\SemoaCashpay\\" : "src/"
+		},
+		"classmap": ["semoa_cashpay.php"],
+    	"exclude-from-classmap": []
+	},
+	"config" : {
+		"preferred-install" : "dist",
+		"prepend-autoloader": false
+	},
+	"type" : "prestashop-module",
+	"author" : "semoa-togo",
+	"license" : ""
+}

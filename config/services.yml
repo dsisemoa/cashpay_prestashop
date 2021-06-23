@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  semoa.cashpay_api_client:
+    class: Semoa\SemoaCashpay\Services\CashpayClient
+    public: true
