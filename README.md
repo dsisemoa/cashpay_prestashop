@@ -1,6 +1,6 @@
 # cashpay_prestashop / PrestaShop-module
 
-Cashpay allows businesses to safely receive payments by mobile money or banking card.
+Cashpay allows businesses to receive payments by mobile money, banking card and banking application.
 
 
 Before using this plugin, make sure you have a right Merchant account on Cashpay, otherwise go and create your account.
@@ -14,7 +14,8 @@ Prestashop greater than or equal 1.7
 ## Usage
 
 * Download the zip
-* Install and configure your credentials
+* Unzip the file and rename folder to "semoa_cashpay". The folder name should have the same name as the module.
+* Install module into your website and configure your credentials.
 
 ## Notice
 
